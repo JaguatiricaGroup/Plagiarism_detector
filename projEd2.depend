@@ -1,0 +1,133 @@
+# depslib dependency file v1.0
+1476909472 source:/home/gabriel/projEd2/main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	"hash.h"
+	"Rabinkarp.h"
+	<vector>
+	<dirent.h>
+
+1476112454 source:/home/gabriel/projEd2/src/hash.cpp
+	"hash.h"
+	<fstream>
+	<string>
+	<iostream>
+	<vector>
+	<math.h>
+	<stdlib.h>
+
+1475948957 /home/gabriel/projEd2/include/hash.h
+	<string>
+
+1476908823 source:/home/gabriel/projEd2/src/Rabinkarp.cpp
+	"Rabinkarp.h"
+	<fstream>
+	<string>
+	<iostream>
+	<iomanip>
+
+1476909496 /home/gabriel/projEd2/include/Rabinkarp.h
+	"hash.h"
+	<fstream>
+	<list>
+	<string>
+	<iostream>
+	<math.h>
+	<stdlib.h>
+	<stdio.h>
+	<vector>
+
+1476569804 source:/home/gabriel/projEd2/src/estrutura.cpp
+	"estrutura.h"
+
+1476570038 /home/gabriel/projEd2/include/estrutura.h
+
+1477074055 source:/home/gabriel/Documents/projetos/projEd2/main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	"hash.h"
+	"Rabinkarp.h"
+	<vector>
+	<dirent.h>
+
+1477053569 /home/gabriel/Documents/projetos/projEd2/include/hash.h
+	<string>
+
+1477076806 /home/gabriel/Documents/projetos/projEd2/include/Rabinkarp.h
+	"hash.h"
+	<fstream>
+	<list>
+	<string>
+	<iostream>
+	<math.h>
+	<stdlib.h>
+	<stdio.h>
+	<vector>
+
+1477053571 source:/home/gabriel/Documents/projetos/projEd2/src/estrutura.cpp
+	"estrutura.h"
+
+1477053569 /home/gabriel/Documents/projetos/projEd2/include/estrutura.h
+
+1477053571 source:/home/gabriel/Documents/projetos/projEd2/src/hash.cpp
+	"hash.h"
+	<fstream>
+	<string>
+	<iostream>
+	<vector>
+	<math.h>
+	<stdlib.h>
+
+1477077931 source:/home/gabriel/Documents/projetos/projEd2/src/Rabinkarp.cpp
+	"Rabinkarp.h"
+	<fstream>
+	<string>
+	<iostream>
+	<iomanip>
+
+1477074055 source:/home/gabriel/projetos/projEd/backup/main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	"hash.h"
+	"Rabinkarp.h"
+	<vector>
+	<dirent.h>
+
+1477053569 /home/gabriel/projetos/projEd/backup/include/hash.h
+	<string>
+
+1477076806 /home/gabriel/projetos/projEd/backup/include/Rabinkarp.h
+	"hash.h"
+	<fstream>
+	<list>
+	<string>
+	<iostream>
+	<math.h>
+	<stdlib.h>
+	<stdio.h>
+	<vector>
+
+1477053571 source:/home/gabriel/projetos/projEd/backup/src/estrutura.cpp
+	"estrutura.h"
+
+1477053569 /home/gabriel/projetos/projEd/backup/include/estrutura.h
+
+1477053571 source:/home/gabriel/projetos/projEd/backup/src/hash.cpp
+	"hash.h"
+	<fstream>
+	<string>
+	<iostream>
+	<vector>
+	<math.h>
+	<stdlib.h>
+
+1477077931 source:/home/gabriel/projetos/projEd/backup/src/Rabinkarp.cpp
+	"Rabinkarp.h"
+	<fstream>
+	<string>
+	<iostream>
+	<iomanip>
+

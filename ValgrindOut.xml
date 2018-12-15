@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+
+<valgrindoutput>
+
+<protocolversion>4</protocolversion>
+<protocoltool>memcheck</protocoltool>
+
+<preamble>
+  <line>Memcheck, a memory error detector</line>
+  <line>Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.</line>
+  <line>Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info</line>
+  <line>Command: /home/gabriel/projEd2/bin/Debug/projEd2 </line>
+</preamble>
+
+<pid>4934</pid>
+<ppid>2207</ppid>
+<tool>memcheck</tool>
+
+<args>
+  <vargv>
+    <exe>/usr/bin/valgrind</exe>
+    <arg>--leak-check=full</arg>
+    <arg>--track-origins=yes</arg>
+    <arg>--xml=yes</arg>
+    <arg>--xml-file=/home/gabriel/projEd2/ValgrindOut.xml</arg>
+  </vargv>
+  <argv>
+    <exe>/home/gabriel/projEd2/bin/Debug/projEd2</exe>
+    <arg></arg>
+  </argv>
+</args>
+
+<status>
+  <state>RUNNING</state>
+  <time>00:00:00:00.048 </time>
+</status>
+
+
+<status>
+  <state>FINISHED</state>
+  <time>00:00:00:00.820 </time>
+</status>
+
+<error>
+  <unique>0x1</unique>
+  <tid>1</tid>
+  <kind>Leak_DefinitelyLost</kind>
+  <xwhat>
+    <text>1,425 (32 direct, 1,393 indirect) bytes in 1 blocks are definitely lost in loss record 2 of 4</text>
+    <leakedbytes>1425</leakedbytes>
+    <leakedblocks>1</leakedblocks>
+  </xwhat>
+  <stack>
+    <frame>
+      <ip>0x4C2C20C</ip>
+      <obj>/usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>operator new(unsigned long)</fn>
+      <dir>/builddir/build/BUILD/valgrind-3.11.0/coregrind/m_replacemalloc</dir>
+      <file>vg_replace_malloc.c</file>
+      <line>334</line>
+    </frame>
+    <frame>
+      <ip>0x4019CC</ip>
+      <obj>/home/gabriel/projEd2/bin/Debug/projEd2</obj>
+      <fn>Rabinkarp::arquivoToString[abi:cxx11](std::basic_ifstream&lt;char, std::char_traits&lt;char&gt; &gt;*)</fn>
+      <dir>/home/gabriel/projEd2/src</dir>
+      <file>Rabinkarp.cpp</file>
+      <line>76</line>
+    </frame>
+    <frame>
+      <ip>0x401399</ip>
+      <obj>/home/gabriel/projEd2/bin/Debug/projEd2</obj>
+      <fn>main</fn>
+      <dir>/home/gabriel/projEd2</dir>
+      <file>main.cpp</file>
+      <line>17</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x3</unique>
+  <tid>1</tid>
+  <kind>Leak_DefinitelyLost</kind>
+  <xwhat>
+    <text>2,401 (32 direct, 2,369 indirect) bytes in 1 blocks are definitely lost in loss record 4 of 4</text>
+    <leakedbytes>2401</leakedbytes>
+    <leakedblocks>1</leakedblocks>
+  </xwhat>
+  <stack>
+    <frame>
+      <ip>0x4C2C20C</ip>
+      <obj>/usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>operator new(unsigned long)</fn>
+      <dir>/builddir/build/BUILD/valgrind-3.11.0/coregrind/m_replacemalloc</dir>
+      <file>vg_replace_malloc.c</file>
+      <line>334</line>
+    </frame>
+    <frame>
+      <ip>0x4019CC</ip>
+      <obj>/home/gabriel/projEd2/bin/Debug/projEd2</obj>
+      <fn>Rabinkarp::arquivoToString[abi:cxx11](std::basic_ifstream&lt;char, std::char_traits&lt;char&gt; &gt;*)</fn>
+      <dir>/home/gabriel/projEd2/src</dir>
+      <file>Rabinkarp.cpp</file>
+      <line>76</line>
+    </frame>
+    <frame>
+      <ip>0x4013B6</ip>
+      <obj>/home/gabriel/projEd2/bin/Debug/projEd2</obj>
+      <fn>main</fn>
+      <dir>/home/gabriel/projEd2</dir>
+      <file>main.cpp</file>
+      <line>18</line>
+    </frame>
+  </stack>
+</error>
+
+<errorcounts>
+</errorcounts>
+
+<suppcounts>
+</suppcounts>
+
+</valgrindoutput>
+
